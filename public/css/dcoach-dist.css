@@ -367,7 +367,8 @@ section img:hover{
 
 @media(max-width:799px){
     section{
-        width: 95%;
+        margin-left: 10px;
+        width: 90%;
         height: 248px;
     }
 }
