@@ -303,8 +303,12 @@ section img:hover{
 }
 
 @media(max-width:799px){
-    section{
-        margin-left: 10px;
+    
+    .boxImg{
+        margin-left: 5px;
+        width: 90%;
+    }
+    section{ 
         width: 90%;
         height: 248px;
     }
