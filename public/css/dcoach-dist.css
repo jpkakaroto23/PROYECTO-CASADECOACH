@@ -880,7 +880,7 @@ section img:hover{
     -ms-grid-row: 1;
     -ms-grid-column: 1;
     grid-area: tti4;
-    margin-top: 20px;
+    margin-top: 40px;
 }
 
 .tt4Foo{
@@ -905,7 +905,7 @@ section img:hover{
     -ms-grid-row: 3;
     -ms-grid-column: 1;
     grid-area: listaBajo;
-    margin-top: 20px;
+    margin-top: 40px;
 }
 
 .listaBjo{
