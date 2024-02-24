@@ -175,16 +175,23 @@ li{
     height: 100vh;
 }
 
-.bx_img{
+.conteiner{
     -ms-grid-row: 1;
     -ms-grid-column: 1;
     grid-area: box_cont_1;
     height: 100vh;
+    overflow: hidden;
 }
 
-.img1{
+.slider_conteiner{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.img_sl{
     width: 100%;
-    height: 100%;
+    height: 100vh;
 }
 
 .bx_tex1{
@@ -621,7 +628,7 @@ li{
         -ms-grid-row: 1;
         -ms-grid-column: 1;
     }
-    .bx_img{
+    .conteiner{
         -ms-grid-row: 1;
         -ms-grid-column: 1;
     }
@@ -702,7 +709,7 @@ li{
         -ms-grid-row: 1;
         -ms-grid-column: 1;
     }
-    .bx_img{
+    .conteiner{
         -ms-grid-row: 1;
         -ms-grid-column: 1;
     }
