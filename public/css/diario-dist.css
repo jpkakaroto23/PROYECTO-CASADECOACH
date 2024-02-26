@@ -807,5 +807,12 @@ hr{
         margin-top: 40%;
     }
 
-    
+}
+
+
+@media(max-width:799px){
+    .main_box{
+        width: 100%;
+        height: 100%;
+    }
 }
