@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=ADLaM+Display&display=swap');
+
 *{
     box-sizing: border-box;
     margin: 0;
@@ -54,7 +56,7 @@
     text-align: center;
     font-size: 16px;
     font-weight: 500;
-    font-family: Metropolis,Metropolis-Fallback,sans-serif;
+    font-family: ADLaM Display;
     line-height: 1.7;
 }
 
@@ -93,7 +95,7 @@
     text-decoration: none;
     letter-spacing: 1px;
     font-weight: 600;
-    font-family: Metropolis,Metropolis-Fallback,sans-serif;
+    font-family: ADLaM Display;
     cursor: pointer;
 }
 
@@ -251,7 +253,7 @@
 
 
 .tt{
-    font-family: sans-serif;
+    font-family: ADLaM Display;
     font-size: 28px;
     margin-left: 12px;
     font-weight:600;
@@ -278,7 +280,7 @@
     margin-top: 60px;
     transform: translateX(40px);
     width: 80%;
-    font-family: Metropolis,Metropolis-Fallback,sans-serif;
+    font-family: ADLaM Display;
     font-size: 18px;
     margin-left: 10px;
     font-weight:600;
@@ -288,7 +290,7 @@
 .t3{
     margin-top: 70px;
     width: 87%;
-    font-family: sans-serif;
+    font-family: ADLaM Display;
     font-size: 21px;
     margin-left: 12px;
     font-weight:600;
@@ -321,7 +323,7 @@
 }
 
 .ptexto_central{
-    font-family: sans-serif;
+    font-family: ADLaM Display;
     font-size: 18px;
     margin-left: 12px;
     font-weight:600;

@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=ADLaM+Display&display=swap');
+
+
 *{
     box-sizing: border-box;
     margin: 0;
@@ -52,7 +55,7 @@
     text-align: center;
     font-size: 16px;
     font-weight: 500;
-    font-family: Metropolis,Metropolis-Fallback,sans-serif;
+    font-family: ADLaM Display;
     line-height: 1.7;
 }
 
@@ -91,7 +94,7 @@
     text-decoration: none;
     letter-spacing: 1px;
     font-weight: 600;
-    font-family: Metropolis,Metropolis-Fallback,sans-serif;
+    font-family: ADLaM Display;
     cursor: pointer;
 }
 
@@ -209,7 +212,7 @@ li{
     margin-left: 15px;
     color: white;
     font-size: 57px;
-    font-family: sans-serif;
+    font-family: ADLaM Display;
 }
 
 .tt_casa3{
@@ -260,7 +263,7 @@ li{
 .bx_tt3{
     margin-left: 2px;
     font-size: 21px;
-    font-family: sans-serif;
+    font-family: ADLaM Display;
     color: #393939;
 }
 
@@ -271,7 +274,7 @@ li{
     letter-spacing: 1px;
     font-size: 13px;
     font-weight: 600;
-    font-family: Metropolis,Metropolis-Fallback,sans-serif;
+    font-family: ADLaM Display;
     line-height: 1.7;
 }
 
@@ -282,7 +285,7 @@ li{
     letter-spacing: 1px;
     font-size: 15px;
     font-weight: 600;
-    font-family: Metropolis,Metropolis-Fallback,sans-serif;
+    font-family: ADLaM Display;
     line-height: 1.7;
 }
 
@@ -457,7 +460,7 @@ li{
     .text_mision{
         margin-left: 2px;
         font-size: 19px;
-        font-family: sans-serif;
+        font-family: ADLaM Display;
         color: #393939;
     }
 
@@ -469,14 +472,14 @@ li{
         text-align:left;
         font-size: 13px;
         font-weight: 600;
-        font-family: Metropolis,Metropolis-Fallback,sans-serif;
+        font-family: ADLaM Display;
         line-height: 1.7;
     }
 
     .text_vision{
         margin-left: 2px;
         font-size: 19px;
-        font-family: sans-serif;
+        font-family: ADLaM Display;
         color: #393939;
     }
 
@@ -486,16 +489,16 @@ li{
         margin-left: 5px;
         color: #313030;
         text-align:left;
-        font-size: 15px;
+        font-size: 13px;
         font-weight: 600;
-        font-family: Metropolis,Metropolis-Fallback,sans-serif;
+        font-family: ADLaM Display;
         line-height: 1.7;
     }
 
     .text_calidad{
         margin-left: 2px;
         font-size: 19px;
-        font-family: sans-serif;
+        font-family: ADLaM Display;
         color: #393939;
     }
 
@@ -507,7 +510,7 @@ li{
         text-align:left;
         font-size: 13px;
         font-weight: 600;
-        font-family: Metropolis,Metropolis-Fallback,sans-serif;
+        font-family: ADLaM Display;
         line-height: 1.7;
     }
     .textb3_1{
@@ -561,7 +564,7 @@ li{
     .text_mision{
         margin-left: 2px;
         font-size: 19px;
-        font-family: sans-serif;
+        font-family: ADLaM Display;
         color: #393939;
     }
 
@@ -571,16 +574,16 @@ li{
         margin-left: 5px;
         color: #313030;
         text-align:left;
-        font-size: 15px;
+        font-size: 14px;
         font-weight: 600;
-        font-family: Metropolis,Metropolis-Fallback,sans-serif;
+        font-family: ADLaM Display;
         line-height: 1.7;
     }
 
     .text_vision{
         margin-left: 2px;
         font-size: 19px;
-        font-family: sans-serif;
+        font-family: ADLaM Display;
         color: #393939;
     }
 
@@ -590,9 +593,9 @@ li{
         margin-left: 5px;
         color: #313030;
         text-align:left;
-        font-size: 15px;
+        font-size: 14px;
         font-weight: 600;
-        font-family: Metropolis,Metropolis-Fallback,sans-serif;
+        font-family: ADLaM Display;
         line-height: 1.7;
     }
 
@@ -600,7 +603,7 @@ li{
         margin-top: 5px;
         margin-left: 2px;
         font-size: 19px;
-        font-family: sans-serif;
+        font-family: ADLaM Display;
         color: #393939;
     }
 
@@ -610,9 +613,9 @@ li{
         margin-left: 5px;
         color: #313030;
         text-align:left;
-        font-size: 15px;
+        font-size: 14px;
         font-weight: 600;
-        font-family: Metropolis,Metropolis-Fallback,sans-serif;
+        font-family: ADLaM Display;
         line-height: 1.7;
     }
 }

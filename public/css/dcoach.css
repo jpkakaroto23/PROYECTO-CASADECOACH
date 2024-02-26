@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=ADLaM+Display&display=swap');
+
 *{
     box-sizing: border-box;
     margin: 0;
@@ -49,7 +51,7 @@
     text-align: center;
     font-size: 16px;
     font-weight: 500;
-    font-family: Metropolis,Metropolis-Fallback,sans-serif;
+    font-family: ADLaM Display;
     line-height: 1.7;
 }
 
@@ -85,7 +87,7 @@
     text-decoration: none;
     letter-spacing: 1px;
     font-weight: 600;
-    font-family: Metropolis,Metropolis-Fallback,sans-serif;
+    font-family: ADLaM Display;
     cursor: pointer;
 }
 
@@ -152,7 +154,7 @@
 .tt1{
     text-align: center;
     margin-top: 6%;
-    font-family: sans-serif;
+    font-family: ADLaM Display;
     font-size: 30px;
     margin-left: 12px;
     font-weight:500;
@@ -175,13 +177,13 @@
     letter-spacing: 1px;
     font-size: 16px;
     font-weight: 600;
-    font-family: Metropolis,Metropolis-Fallback,sans-serif;
+    font-family: ADLaM Display;
     line-height: 1.7;
 }
 
 .tt2{
     margin-left: 60px;
-    font-family: sans-serif;
+    font-family: ADLaM Display;
     color: #393939;
     font-size: 28px;
 }
@@ -220,7 +222,7 @@
     color: #393939;
     font-size: 15px;
     font-weight: 600;
-    font-family: Metropolis,Metropolis-Fallback,sans-serif;
+    font-family: ADLaM Display;
     line-height: 1.7;
 }
 
@@ -233,7 +235,7 @@
     color: #393939;
     font-size: 15px;
     font-weight: 600;
-    font-family: Metropolis,Metropolis-Fallback,sans-serif;
+    font-family: ADLaM Display;
     line-height: 1.7;
 }
 
@@ -340,7 +342,7 @@ section img:hover{
     color: #393939;
     font-size: 18px;
     font-weight: 500;
-    font-family: Metropolis,Metropolis-Fallback,sans-serif;
+    font-family: ADLaM Display;
     line-height: 1.7;
 }
 
@@ -355,7 +357,7 @@ section img:hover{
     color: #393939;
     font-size: 18px;
     font-weight: 500;
-    font-family: Metropolis,Metropolis-Fallback,sans-serif;
+    font-family: ADLaM Display;
     line-height: 1.7;
 }
 
@@ -370,7 +372,7 @@ section img:hover{
     color: #393939;
     font-size: 18px;
     font-weight: 500;
-    font-family: Metropolis,Metropolis-Fallback,sans-serif;
+    font-family: ADLaM Display;
     line-height: 1.7;
 }
 
@@ -417,7 +419,7 @@ section img:hover{
         margin-top: 70px;
         letter-spacing: 0px;
         color: #393939;
-        font-family: sans-serif;
+        font-family: ADLaM Display;
         font-size: 25px;
     }
 
@@ -469,7 +471,7 @@ section img:hover{
     color: #393939;
     font-size: 18px;
     font-weight: 500;
-    font-family: Metropolis,Metropolis-Fallback,sans-serif;
+    font-family: ADLaM Display;
     line-height: 1.7;
 }
 
@@ -483,7 +485,7 @@ section img:hover{
     color: #393939;
     font-size: 18px;
     font-weight: 500;
-    font-family: Metropolis,Metropolis-Fallback,sans-serif;
+    font-family: ADLaM Display;
     line-height: 1.7;
 }
 
@@ -497,7 +499,7 @@ section img:hover{
     color: #393939;
     font-size: 18px;
     font-weight: 500;
-    font-family: Metropolis,Metropolis-Fallback,sans-serif;
+    font-family: ADLaM Display;
     line-height: 1.7;
 }
 
@@ -560,7 +562,7 @@ section img:hover{
     color: #070505;
     font-size: 18px;
     font-weight: 500;
-    font-family: Metropolis,Metropolis-Fallback,sans-serif;
+    font-family: ADLaM Display;
     line-height: 1.7;
 }
 
@@ -698,7 +700,7 @@ section img:hover{
     color: #1f1818;
     font-size: 14px;
     font-weight: 600;
-    font-family: Metropolis,Metropolis-Fallback,sans-serif;
+    font-family: ADLaM Display;
     line-height: 1.7;
 }
 
@@ -746,7 +748,7 @@ section img:hover{
 
 .tt4Foo{
     margin-left: 30px;
-    font-family: sans-serif;
+    font-family: ADLaM Display;
     font-size: 25px;
     margin-left: 12px;
     font-weight:500;
@@ -779,7 +781,7 @@ section img:hover{
     color: #1f1818;
     font-size: 15px;
     font-weight: 600;
-    font-family: Metropolis,Metropolis-Fallback,sans-serif;
+    font-family: ADLaM Display;
     line-height: 1;
 }
 
@@ -831,13 +833,14 @@ section img:hover{
 .boxUl1{
     grid-area: boxUl1;
     height: 350px;
+    margin: 30px 120px 0;
 }
 
 .img_Fon{
     display: block;
-    margin: auto;
-    margin-top: 10px;
-    width: 300px;
+    margin: 20px auto 0;
+    margin-top: 20px;
+    width: 800px;
     height: 100%;
 }
 
@@ -848,7 +851,7 @@ section img:hover{
 .tt_5{
     margin-top: 60px;
     margin-left: 30px;
-    font-family: sans-serif;
+    font-family: ADLaM Display;
     font-size: 25px;
     margin-left: 12px;
     font-weight:500;
@@ -877,7 +880,7 @@ section img:hover{
     color: #393939;
     font-size: 18px;
     font-weight: 500;
-    font-family: Metropolis,Metropolis-Fallback,sans-serif;
+    font-family: ADLaM Display;
     line-height: 1.7;
 }
 
@@ -896,7 +899,7 @@ section img:hover{
     color: #393939;
     font-size: 18px;
     font-weight: 500;
-    font-family: Metropolis,Metropolis-Fallback,sans-serif;
+    font-family: ADLaM Display;
     line-height: 1.7;
 }
 
@@ -912,6 +915,15 @@ section img:hover{
 }
 
 @media(max-width:799px){
+    .boxUl1{
+        width: 100%;  
+        margin: 50px auto 0; 
+    }
+
+    .img_Fon{
+        width: 97%;
+    }
+
     .boxUl3{
         margin-left: -5px;
     }
@@ -935,7 +947,7 @@ section img:hover{
 .imgfinales{
     display: block;
     margin: auto;
-    margin-top: 50px;
+    margin-top:80px;
     width: 85%;
     height: 250px;
 }
@@ -945,7 +957,7 @@ section img:hover{
 @media(max-width:799px){
     .imgfinales{
         margin-left: 30px;
-        margin-top: 110%;
+        margin-top: 120%;
     }
 }
 
@@ -991,6 +1003,6 @@ hr{
 
 @media(max-width:799px){
     hr{
-        margin-top: 160%;
+        margin-top: 40%;
     }
 }

@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=ADLaM+Display&display=swap');
+
 *{
     box-sizing: border-box;
     margin: 0;
@@ -53,7 +55,7 @@
     text-align: center;
     font-size: 16px;
     font-weight: 500;
-    font-family: Metropolis,Metropolis-Fallback,sans-serif;
+    font-family: ADLaM Display;
     line-height: 1.7;
 }
 
@@ -93,7 +95,7 @@
     text-decoration: none;
     letter-spacing: 1px;
     font-weight: 600;
-    font-family: Metropolis,Metropolis-Fallback,sans-serif;
+    font-family: ADLaM Display;
     cursor: pointer;
 }
 
@@ -209,7 +211,7 @@
 .main_tt{
     margin-top: 90px;
     text-align: center;
-    font-family: sans-serif;
+    font-family: ADLaM Display;
     font-size: 28px;
     margin-left: 12px;
     font-weight:600;
@@ -341,9 +343,9 @@
     margin-top: 30px;
     letter-spacing:1px;
     color: #393939;
-    font-size: 12px;
+    font-size: 13px;
     font-weight: 800;
-    font-family: Metropolis,Metropolis-Fallback,sans-serif;
+    font-family: ADLaM Display;
     line-height: 1.7;
 }
 
@@ -356,9 +358,9 @@
 .textt2{
     letter-spacing:1px;
     color: #393939;
-    font-size: 13px;
+    font-size: 14px;
     font-weight: 600;
-    font-family: Metropolis,Metropolis-Fallback,sans-serif;
+    font-family: ADLaM Display;
     line-height: 1.7;
 }
 
@@ -371,9 +373,9 @@
 .textt3{
     letter-spacing:1px;
     color: #393939;
-    font-size: 13px;
+    font-size: 14px;
     font-weight: 600;
-    font-family: Metropolis,Metropolis-Fallback,sans-serif;
+    font-family: ADLaM Display;
     line-height: 1.7;
 }
 
@@ -387,9 +389,9 @@
 .textt4{
     letter-spacing:1px;
     color: #393939;
-    font-size: 13px;
+    font-size: 14px;
     font-weight: 600;
-    font-family: Metropolis,Metropolis-Fallback,sans-serif;
+    font-family: ADLaM Display;
     line-height: 1.7;
 }
 
