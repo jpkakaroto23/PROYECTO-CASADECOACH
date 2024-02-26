@@ -445,6 +445,8 @@ section img:hover{
     }
 }
 
+
+
 /*nueva caja de texto 3 párrafos* se maneja con grid*/
 
 .boxtext_678{
@@ -921,7 +923,7 @@ section img:hover{
 @media(max-width:799px){
 
     .boxUlti{
-        margin-top: 50px;
+        margin-top: 70px;
     }
     .boxUl1{
         width: 100%;  
