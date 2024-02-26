@@ -826,17 +826,8 @@ hr{
         height: 50px;
     }
 
-    .bbox_1{
-        width: 100%;
-        height: 600px; 
-    }
-
-    .cajatextos1{
-        width: 100%;
-    }
-
-
     .m_box2{
+        margin-top: 10%;
         width: 100%;
         height: 600px;
     }
