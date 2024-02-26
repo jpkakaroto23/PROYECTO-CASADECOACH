@@ -720,11 +720,11 @@ hr{
     }
 
     .footer, hr{
-        width: 80%;
+        width: 100%;
     }
 
     hr{
-        margin-left: 5px;
+        margin-left: 20px;
     }
 
     .derechos, .h5text{
