@@ -655,6 +655,10 @@ section img:hover{
     .grid_img_text{
         margin-left: 25px;
     }
+
+    .imglong{
+        margin-top: 20px;
+    }
 }
 
 .text_long{
@@ -796,7 +800,7 @@ section img:hover{
 
 @media(max-width:799px){
     .tt_4bajo{
-        margin-top: 150%;
+        margin-top: 110%;
     }
 
     .tt4Foo{
@@ -833,7 +837,7 @@ section img:hover{
 .boxUl1{
     grid-area: boxUl1;
     height: 350px;
-    margin: 30px 120px 0;
+    margin: 100px 120px 0;
 }
 
 .img_Fon{
@@ -915,6 +919,10 @@ section img:hover{
 }
 
 @media(max-width:799px){
+
+    .boxUlti{
+        margin-top: 50px;
+    }
     .boxUl1{
         width: 100%;  
         margin: 50px auto 0; 
@@ -947,7 +955,7 @@ section img:hover{
 .imgfinales{
     display: block;
     margin: auto;
-    margin-top:80px;
+    margin-top:130px;
     width: 85%;
     height: 250px;
 }
