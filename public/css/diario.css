@@ -656,6 +656,10 @@ hr{
         height: 100px;
     }
 
+    .bbox_1{
+        width: 100%;
+    }
+
     .tt_1{
         width: 100%;
         height: 50px;
@@ -678,8 +682,12 @@ hr{
         width: 100%;
     }
 
+    .cajatextos1{
+        width: 80%;
+    }
+
     .tit_2 , .cajatextos1, .ptex_2, .cajatextos3, .ptex_3, .cajat4, .tit2, .cajat5, .ptex_5, .cajat6, .tt_4, .cajat7, .ptex_6, .cajat8, .tt_5, .cajat9, .ptex_7{
-        width: 75%;
+        width: 80%;
     }
 
     .m_box3{
