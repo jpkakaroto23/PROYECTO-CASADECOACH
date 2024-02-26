@@ -649,6 +649,11 @@ hr{
 
     .m_box1{
         width: 100%;
+        height: 100px;
+    }
+
+    .m_box1{
+        width: 100%;
         height: 600px;
     }
 
