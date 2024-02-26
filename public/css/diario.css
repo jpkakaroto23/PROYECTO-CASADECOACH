@@ -655,6 +655,7 @@ hr{
     .tt_1{
         width: 100%;
         height: 50px;
+        margin: auto;
     }
 
     .m_box2{
