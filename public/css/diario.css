@@ -656,8 +656,8 @@ hr{
         height: 100px;
     }
 
-    .bbox_1, .bbox_2, .bbox_3, .bbox_4, .bbox_5, .bbox_6, .bbox_7, .bbox_8{
-        width: 80%;
+    .bbox_1{
+        width: 100%;
     }
 
     .tt_1{
