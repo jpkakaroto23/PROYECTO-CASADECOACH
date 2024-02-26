@@ -689,3 +689,11 @@ hr{
 
     
 }
+
+
+@media(max-width:270px){
+    .main_conteiner{
+        width: 100%;
+        height: 100%;
+    }
+}
