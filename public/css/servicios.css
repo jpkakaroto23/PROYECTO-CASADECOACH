@@ -268,11 +268,20 @@ li{
     }
 
     .img_servicios{
-        width: 98%;
+        width: 100%;
         height: 350px;
         margin-left: 5px;
     }
 
+
+    .text_ser{
+        width: 100%;
+        margin-left: 5px;
+    }
+
+    .p_text_serv{
+        width: 98%;
+    }
 
     .box3{
         width: 100%;
