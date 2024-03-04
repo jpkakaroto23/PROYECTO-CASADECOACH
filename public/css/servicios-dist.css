@@ -347,13 +347,16 @@ li{
         height: 400px;
     }
 
-
-
-
     .box2{
         width: 100%;
         height: 400px;
     }
+
+    .img_servicios{
+        width: 90%;
+        height: 250px;
+    }
+
 
     .box3{
         width: 100%;
