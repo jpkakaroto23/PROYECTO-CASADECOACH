@@ -60,3 +60,7 @@ app.get('/diario', (req, res)=>{
 app.get('/contacto', (req, res)=>{
     res.sendFile(path.resolve(__dirname, 'contacto.html'));
 })
+
+app.get('/servicios', (req, res)=>{
+    res.sendFile(path.resolve(__dirname, 'servicios.html'));
+})

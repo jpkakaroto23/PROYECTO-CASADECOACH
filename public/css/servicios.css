@@ -1,0 +1,289 @@
+@import url('https://fonts.googleapis.com/css2?family=ADLaM+Display&display=swap');
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.main_conteiner{
+    display: grid;
+    grid-template-areas: 
+    "header"
+    "box";
+}
+
+.header{
+    grid-area: header;
+    position: sticky;
+    background-color: black;
+    height: 100%;
+}
+
+.boxheader{
+    display: grid;
+    width: 190px;
+    grid-template-areas: 
+    "box_hea_logo1"
+    "box_hea_logo2";
+}
+
+
+.box_hea_logo1{
+    grid-area: box_hea_logo1;
+    width: 190px;
+    height: 250px;
+}
+
+.img_logo{
+    margin-left: 90px;
+    margin-top: 40px;
+    width: 55%;
+    height: 40%;
+}
+
+.text_logo{
+    margin-top: 20px;
+    margin-left: 60px;
+    width: 160px;
+    height: 40px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: ADLaM Display;
+    line-height: 1.7;
+}
+
+.pa_logo{
+    
+    color: white;
+    
+}
+
+.box_hea_logo2{
+    grid-area: box_hea_logo2;
+}
+
+.box_hea_logo2{
+    display: grid;
+    grid-template-areas: 
+    "ul_head";
+}
+
+.ul_head{
+    margin-top: 10px;
+    margin-left: 25px;
+    grid-area: ul_head;
+    width: 220px;
+}
+
+.jea_li{
+    text-align: center;
+    color: rgb(190, 188, 188);
+    line-height: 2;
+    list-style: none;
+    text-decoration: none;
+    letter-spacing: 1px;
+    font-weight: 600;
+    font-family: ADLaM Display;
+    cursor: pointer;
+}
+
+.jea_li:hover{
+    color: white;
+}
+
+@media(min-width:800px){
+    .box_hea_logo2{
+        grid-template: 
+        "ul_head";
+    }
+}
+
+@media(min-width:800px){
+    .boxheader{
+        grid-template: 
+        "box_hea_logo1"
+        "box_hea_logo2";
+    }
+}
+
+
+.box{
+    grid-area: box;
+    overflow: auto;
+}
+
+@media(min-width:1200px){
+    .main_conteiner{
+        grid-template: 
+        "header box" 100vh/
+        22% auto;
+    }
+}
+
+li{
+    color: white;
+}
+
+/*generando separación de las cajas 4 cajas en total*/
+
+.main_box{
+    display: grid;
+    gap: 10px;
+    width: 100%;
+    height: 100vh;
+    grid-template-areas: 
+    "box1"
+    "box2"
+    "box3"
+    "box4";
+}
+
+.box1{
+    grid-area: box1;
+}
+
+.box1{
+    display: grid;
+    gap: 10px;
+    grid-template-areas: 
+    "h1_txt"
+    "parrafo";
+}
+
+.h1_txt{
+    grid-area: h1_txt;
+    text-align: center;
+    font-family: ADLaM Display;
+    margin-top: 40px;
+    
+}
+
+.parrafo{
+    grid-area: parrafo;
+    margin-top: -20px;
+}
+
+
+.p_parra{
+    text-align: center;
+    font-size: 21px;
+    font-family: ADLaM Display;
+}
+
+.box2{
+    grid-area: box2;
+    background-color: aquamarine;
+}
+
+.box2{
+    display: grid;
+    gap: 10px;
+    width: 100%;
+    grid-template-areas: 
+    "img_box"
+    "text_ser";
+}
+
+.img_box{
+    grid-area: img_box;
+    background-color: wheat;
+}
+
+.text_ser{
+    grid-area: text_ser;
+}
+
+.img_servicios{
+    width: 100%;
+    height: 400px;
+}
+
+
+@media(min-width:800px){
+    .box2{
+        grid-template: 
+        "img_box text_ser"/
+        60% 40%;
+    }
+}
+
+.box3{
+    grid-area: box3;
+    background-color: aquamarine;
+}
+
+.box4{
+    grid-area: box4;
+    background-color: aquamarine;
+}
+
+
+.box5{
+    grid-area: box5;
+    background-color: aquamarine;
+}
+
+.box6{
+    grid-area: box6;
+    background-color: aquamarine;
+}
+
+.box7{
+    grid-area: box7;
+    background-color: aquamarine;
+}
+
+@media(min-width:800px){
+    .main_box{
+        overflow: auto;
+        grid-template: 
+        "box1 box1" 25%
+        "box2 box2"
+        "box3 box4"
+        "box5 box6"
+        "box7 box7";
+    }
+}
+
+@media(max-width:799px){
+    .box1{
+        width: 100%;
+        height: 400px;
+    }
+
+
+
+
+    .box2{
+        width: 100%;
+        height: 400px;
+    }
+
+    .box3{
+        width: 100%;
+        height: 400px;
+    }
+
+    .box4{
+        width: 100%;
+        height: 400px;
+    }
+
+    .box5{
+        width: 100%;
+        height: 400px;
+    }
+
+    .box6{
+        width: 100%;
+        height: 400px;
+    }
+
+    .box7{
+        width: 100%;
+        height: 400px;
+    }
+}
