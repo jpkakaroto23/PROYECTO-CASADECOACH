@@ -175,7 +175,6 @@ li{
 
 .box2{
     grid-area: box2;
-    background-color: aquamarine;
 }
 
 .box2{
@@ -189,11 +188,20 @@ li{
 
 .img_box{
     grid-area: img_box;
-    background-color: wheat;
 }
 
 .text_ser{
     grid-area: text_ser;
+}
+
+.p_text_serv{
+    margin-top: 50px;
+    width: 90%;
+    text-align: justify;
+    font-family: ADLaM Display;
+    font-size: 16px;
+    letter-spacing: 1px;
+    line-height: 1.7;
 }
 
 .img_servicios{

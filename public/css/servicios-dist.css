@@ -213,7 +213,6 @@ li{
     -ms-grid-row: 3;
     -ms-grid-column: 1;
     grid-area: box2;
-    background-color: aquamarine;
 }
 
 .box2{
@@ -229,13 +228,22 @@ li{
     -ms-grid-row: 1;
     -ms-grid-column: 1;
     grid-area: img_box;
-    background-color: wheat;
 }
 
 .text_ser{
     -ms-grid-row: 3;
     -ms-grid-column: 1;
     grid-area: text_ser;
+}
+
+.p_text_serv{
+    margin-top: 50px;
+    width: 90%;
+    text-align: justify;
+    font-family: ADLaM Display;
+    font-size: 16px;
+    letter-spacing: 1px;
+    line-height: 1.7;
 }
 
 .img_servicios{
