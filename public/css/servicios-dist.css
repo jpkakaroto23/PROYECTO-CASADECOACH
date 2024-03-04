@@ -353,6 +353,7 @@ li{
     }
 
     .img_servicios{
+        margin: 30px auto 0;
         width: 90%;
         height: 250px;
     }
