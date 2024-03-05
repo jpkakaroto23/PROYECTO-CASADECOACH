@@ -287,7 +287,6 @@ li{
     -ms-grid-row: 9;
     -ms-grid-column: 1;
     grid-area: box5;
-    background-color: aquamarine;
 }
 
 .box6{
@@ -306,6 +305,9 @@ li{
 
 @media(min-width:800px){
     .main_box{
+        -moz-column-gap: 15px;
+             column-gap: 15px;
+        row-gap: 60px;
         grid-template: 
         "box1 box1" 160px
         "box2 box2"
@@ -317,33 +319,33 @@ li{
     .box1{
         -ms-grid-row: 1;
         -ms-grid-column: 1;
-        -ms-grid-column-span: 2;
+        -ms-grid-column-span: 3;
     }
     .box2{
-        -ms-grid-row: 2;
+        -ms-grid-row: 3;
         -ms-grid-column: 1;
-        -ms-grid-column-span: 2;
+        -ms-grid-column-span: 3;
     }
     .box3{
-        -ms-grid-row: 3;
+        -ms-grid-row: 5;
         -ms-grid-column: 1;
     }
     .box4{
-        -ms-grid-row: 3;
-        -ms-grid-column: 2;
+        -ms-grid-row: 5;
+        -ms-grid-column: 3;
     }
     .box5{
-        -ms-grid-row: 4;
+        -ms-grid-row: 7;
         -ms-grid-column: 1;
     }
     .box6{
-        -ms-grid-row: 4;
-        -ms-grid-column: 2;
+        -ms-grid-row: 7;
+        -ms-grid-column: 3;
     }
     .box7{
-        -ms-grid-row: 5;
+        -ms-grid-row: 9;
         -ms-grid-column: 1;
-        -ms-grid-column-span: 2;
+        -ms-grid-column-span: 3;
     }
 }
 
@@ -382,8 +384,8 @@ li{
     display: grid;
     gap: 10px;
     grid-template-areas: 
-    "img_box3"
-    "p_text_box3";
+    "img_box4"
+    "p_text_box4";
 }
 
 
@@ -398,6 +400,64 @@ li{
 }
 
 .p_tt_bx4{
+    margin-left: 11px;
+    width: 95%;
+    height: 100%;
+    text-align: justify;
+    font-family: ADLaM Display;
+}
+
+/*box5 configurando contenido*/
+
+.box5{
+    display: grid;
+    gap: 10px;
+    grid-template-areas: 
+    "img_box5"
+    "p_text_box5";
+}
+
+
+.img_b5{
+    width: 100%;
+    height: 300px;
+}
+
+.p_text_box5{
+    width: 100%;
+    height: 300px;
+}
+
+.p_tt_bx5{
+    margin-left: 11px;
+    width: 95%;
+    height: 100%;
+    text-align: justify;
+    font-family: ADLaM Display;
+}
+
+/*box 6 configurando contenido*/
+
+.box6{
+    display: grid;
+    gap: 10px;
+    grid-template-areas: 
+    "img_box3"
+    "p_text_box3";
+}
+
+
+.img_b6{
+    width: 100%;
+    height: 300px;
+}
+
+.p_text_box6{
+    width: 100%;
+    height: 300px;
+}
+
+.p_tt_bx5{
     margin-left: 11px;
     width: 95%;
     height: 100%;

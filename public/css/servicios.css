@@ -231,7 +231,6 @@ li{
 
 .box5{
     grid-area: box5;
-    background-color: aquamarine;
 }
 
 .box6{
@@ -246,6 +245,8 @@ li{
 
 @media(min-width:800px){
     .main_box{
+        column-gap: 15px;
+        row-gap: 60px;
         grid-template: 
         "box1 box1" 160px
         "box2 box2"
@@ -291,8 +292,8 @@ li{
     display: grid;
     gap: 10px;
     grid-template-areas: 
-    "img_box3"
-    "p_text_box3";
+    "img_box4"
+    "p_text_box4";
 }
 
 
@@ -307,6 +308,64 @@ li{
 }
 
 .p_tt_bx4{
+    margin-left: 11px;
+    width: 95%;
+    height: 100%;
+    text-align: justify;
+    font-family: ADLaM Display;
+}
+
+/*box5 configurando contenido*/
+
+.box5{
+    display: grid;
+    gap: 10px;
+    grid-template-areas: 
+    "img_box5"
+    "p_text_box5";
+}
+
+
+.img_b5{
+    width: 100%;
+    height: 300px;
+}
+
+.p_text_box5{
+    width: 100%;
+    height: 300px;
+}
+
+.p_tt_bx5{
+    margin-left: 11px;
+    width: 95%;
+    height: 100%;
+    text-align: justify;
+    font-family: ADLaM Display;
+}
+
+/*box 6 configurando contenido*/
+
+.box6{
+    display: grid;
+    gap: 10px;
+    grid-template-areas: 
+    "img_box3"
+    "p_text_box3";
+}
+
+
+.img_b6{
+    width: 100%;
+    height: 300px;
+}
+
+.p_text_box6{
+    width: 100%;
+    height: 300px;
+}
+
+.p_tt_bx5{
     margin-left: 11px;
     width: 95%;
     height: 100%;
