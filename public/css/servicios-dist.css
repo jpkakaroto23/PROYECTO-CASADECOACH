@@ -293,7 +293,6 @@ li{
     -ms-grid-row: 11;
     -ms-grid-column: 1;
     grid-area: box6;
-    background-color: aquamarine;
 }
 
 .box7{
@@ -588,7 +587,81 @@ li{
 
 /*box 6 configurando contenido*/
 
+.box6{
+    display: grid;
+    gap: 5px;
+    width: 100%;
+    grid-template-areas: 
+    "tt_box6"
+    "img_6"
+    "pa_text6";
+}
 
+.tt_box6{
+    -ms-grid-row: 1;
+    -ms-grid-column: 1;
+    grid-area: tt_box6;
+    text-align: center;
+    background-color: white;
+}
+
+
+.tt6_boxxx6{
+    text-align: center;
+    font-family: ADLaM Display;
+}
+
+
+.pa_text6{
+    margin-top: 10px;
+}
+
+.pa_text_parrafo6{
+    width: 95%;
+    margin-left: 11px;
+    margin-top: 20px;
+    text-align: justify;
+    font-family: ADLaM Display;
+    font-size: 13px;
+    line-height: 1.7;
+}
+
+
+.img_6{
+    -ms-grid-row: 3;
+    -ms-grid-column: 1;
+    grid-area: img_6;
+    width: 100%;
+    height: 250px;
+}
+
+.pa_text6{
+    -ms-grid-row: 5;
+    -ms-grid-column: 1;
+    grid-area: pa_text6;
+    width: 100%;
+}
+
+@media(min-width:800px){
+    .box6{
+        grid-template: 
+        "tt_box6" 50px
+        "img_6" 250px
+        "pa_text6" 300px;
+    }
+    .tt_box6{
+        -ms-grid-row: 1;
+        -ms-grid-column: 1;
+    }
+    .img_6{
+        -ms-grid-row: 2;
+        -ms-grid-column: 1;
+    }
+    .pa_text6{
+        -ms-grid-row: 3;
+        -ms-grid-column: 1;
+    }
+}
 
 
 @media(max-width:799px){
