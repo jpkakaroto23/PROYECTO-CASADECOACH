@@ -227,7 +227,6 @@ li{
 
 .box4{
     grid-area: box4;
-    background-color: aquamarine;
 }
 
 .box5{
@@ -308,14 +307,6 @@ li{
 }
 
 
-@media(min-width:800px){
-    .box3{
-        grid-template: 
-        "tt_box3" 50px
-        "img_3" 250px
-        "pa_text3" 300px;
-    }
-}
 
 @media(min-width:800px){
     .box3{
@@ -330,7 +321,63 @@ li{
 
 /*configurando box 4*/
 
+.box4{
+    display: grid;
+    gap: 5px;
+    width: 100%;
+    grid-template-areas: 
+    "tt_box4"
+    "img_4"
+    "pa_text4";
+}
 
+.tt_box4{
+    grid-area: tt_box4;
+    text-align: center;
+    background-color: white;
+}
+
+
+.tt4_boxxx4{
+    text-align: center;
+    font-family: ADLaM Display;
+}
+
+
+.pa_text4{
+    margin-top: 10px;
+}
+
+.pa_text_parrafo4{
+    width: 95%;
+    margin-left: 11px;
+    margin-top: 35px;
+    text-align: justify;
+    font-family: ADLaM Display;
+    font-size: 13px;
+    line-height: 1.7;
+}
+
+
+.img_4{
+    grid-area: img_4;
+    width: 100%;
+    height: 296px;
+}
+
+.pa_text4{
+    grid-area: pa_text4;
+    width: 100%;
+}
+
+@media(min-width:800px){
+    .box4{
+        grid-template: 
+        "tt_box4" 50px
+        "img_4" 250px
+        "pa_text4" 300px;
+    }
+}
 
 /*box 6 configurando contenido*/
 
