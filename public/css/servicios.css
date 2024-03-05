@@ -239,7 +239,6 @@ li{
 
 .box7{
     grid-area: box7;
-    background-color: aquamarine;
 }
 
 @media(min-width:800px){
@@ -251,7 +250,7 @@ li{
         "box2 box2"
         "box3 box4" 600px
         "box5 box6" 600px
-        "box7 box7" 400px/
+        "box7 box7" 500px/
         50%;
     }
 }
@@ -530,30 +529,40 @@ li{
     grid-template-areas: 
     "tt_b7" 
     "caja1"
-    "caja2";
+    "caja2"
+    "caja3"
+    "caja4";
 }
 
 .tt_b7{
     grid-area: tt_b7;
-    background-color: wheat;
 }
 
 .caja1{
     grid-area: caja1;
-    background-color: wheat;
 }
 
 
 .caja2{
     grid-area: caja2;
-    background-color: wheat;
 }
+
+
+.caja3{
+    grid-area: caja3;
+}
+
+.caja4{
+    grid-area: caja4;
+}
+
 
 @media(min-width:800px){
     .box_7_1{
         grid-template: 
-        "tt_b7 tt_b7" 55px
-        "caja1 caja2"/
+        "tt_b7 tt_b7" 50px
+        "caja1 caja2" 225px
+        "caja3 caja4"225px/
         50% ;
     }
 }
@@ -567,6 +576,64 @@ li{
     }
 }
 
+
+.b_txt_7{
+    margin-top: 4px;
+    text-align: center;
+    font-family: ADLaM Display;
+}
+
+.sub_text_foo_1, .parra_promocion1{
+    margin-top: 15px;
+    text-align: center;
+    font-family: ADLaM Display;
+}
+
+.precio_1{
+    text-align: center;
+    font-size: 23px;
+}
+
+/*promocion 2*/
+
+.sub_text_foo_2, .parra_promocion2{
+    margin-top: 15px;
+    text-align: center;
+    font-family: ADLaM Display;
+}
+
+.precio_2{
+    text-align: center;
+    font-size: 23px;
+}
+
+/*promocion 3*/
+
+.sub_text_foo_3, .parra_promocion3{
+    margin-top: 15px;
+    text-align: center;
+    font-family: ADLaM Display;
+}
+
+.precio_3{
+    text-align: center;
+    font-size: 23px;
+}
+
+/*promocion 4*/
+
+.sub_text_foo_4, .parra_promocion4{
+    margin-top: 15px;
+    text-align: center;
+    font-family: ADLaM Display;
+}
+
+.precio_4{
+    text-align: center;
+    font-size: 23px;
+}
+
+/*responsive*/
 
 @media(max-width:799px){
     .box1{
