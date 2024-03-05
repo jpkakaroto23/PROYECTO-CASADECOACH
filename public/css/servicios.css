@@ -231,7 +231,6 @@ li{
 
 .box5{
     grid-area: box5;
-    background-color: aquamarine;
 }
 
 .box6{
@@ -377,6 +376,67 @@ li{
         "tt_box4" 50px
         "img_4" 250px
         "pa_text4" 300px;
+    }
+}
+
+
+/*configurado contenido box5*/
+
+.box5{
+    display: grid;
+    gap: 5px;
+    width: 100%;
+    grid-template-areas: 
+    "tt_box5"
+    "img_5"
+    "pa_text5";
+}
+
+.tt_box5{
+    grid-area: tt_box5;
+    text-align: center;
+    background-color: white;
+}
+
+
+.tt5_boxxx5{
+    text-align: center;
+    font-family: ADLaM Display;
+}
+
+
+.pa_text5{
+    margin-top: 10px;
+}
+
+.pa_text_parrafo5{
+    width: 95%;
+    margin-left: 11px;
+    margin-top: 20px;
+    text-align: justify;
+    font-family: ADLaM Display;
+    font-size: 13px;
+    line-height: 1.7;
+}
+
+
+.img_5{
+    grid-area: img_5;
+    width: 100%;
+    height: 250px;
+}
+
+.pa_text5{
+    grid-area: pa_text5;
+    width: 100%;
+}
+
+@media(min-width:800px){
+    .box5{
+        grid-template: 
+        "tt_box5" 50px
+        "img_5" 250px
+        "pa_text5" 300px;
     }
 }
 
