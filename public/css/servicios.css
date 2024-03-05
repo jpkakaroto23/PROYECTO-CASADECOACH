@@ -222,15 +222,18 @@ li{
 
 .box3{
     grid-area: box3;
+    background-color: aquamarine;
 }
 
 
 .box4{
     grid-area: box4;
+    background-color: aquamarine;
 }
 
 .box5{
     grid-area: box5;
+    background-color: aquamarine;
 }
 
 .box6{
@@ -258,128 +261,12 @@ li{
 }
 
 
-.box3{
-    display: grid;
-    gap: 10px;
-    grid-template-areas: 
-    "img_box3"
-    "p_text_box3";
-}
 
-
-.img_b3{
-    width: 100%;
-    height: 300px;
-}
-
-.p_text_box3{
-    width: 100%;
-    height: 300px;
-}
-
-.p_tt_bx3{
-    margin-left: 11px;
-    width: 95%;
-    height: 100%;
-    text-align: justify;
-    font-family: ADLaM Display;
-}
-
-
-/*box4*/
-
-.box4{
-    display: grid;
-    gap: 10px;
-    grid-template-areas: 
-    "img_box4"
-    "p_text_box4";
-}
-
-
-.img_b4{
-    width: 100%;
-    height: 300px;
-}
-
-.p_text_box4{
-    width: 100%;
-    height: 300px;
-}
-
-.p_tt_bx4{
-    margin-left: 11px;
-    width: 95%;
-    height: 100%;
-    text-align: justify;
-    font-family: ADLaM Display;
-}
-
-/*box5 configurando contenido*/
-
-.box5{
-    display: grid;
-    gap: 10px;
-    grid-template-areas: 
-    "img_box5"
-    "p_text_box5";
-}
-
-
-.img_b5{
-    width: 100%;
-    height: 300px;
-}
-
-.p_text_box5{
-    width: 100%;
-    height: 300px;
-}
-
-.p_tt_bx5{
-    margin-left: 11px;
-    width: 95%;
-    height: 100%;
-    text-align: justify;
-    font-family: ADLaM Display;
-}
 
 /*box 6 configurando contenido*/
 
-.box6{
-    display: grid;
-    gap: 10px;
-    grid-template-areas: 
-    "img_box3"
-    "p_text_box3";
-}
 
 
-.img_b6{
-    width: 100%;
-    height: 300px;
-}
-
-.p_text_box6{
-    width: 100%;
-    height: 300px;
-}
-
-.p_tt_bx5{
-    margin-left: 11px;
-    width: 95%;
-    height: 100%;
-    text-align: justify;
-    font-family: ADLaM Display;
-}
-
-@media(min-width:800px){
-    .bb_box3{
-        grid-template: 
-        "img_box3"
-        "p_text_box3";
-    }
-}
 
 @media(max-width:799px){
     .box1{
