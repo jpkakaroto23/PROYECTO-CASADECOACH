@@ -664,6 +664,105 @@ li{
 }
 
 
+/*configurando seccion 7*/
+
+.box7{
+    display: grid;
+    gap: 10px;
+    width: 100%;
+    grid-template-areas: 
+    "box_7_1"
+    "box_7_2";
+}
+
+.box_7_1{
+    -ms-grid-row: 1;
+    -ms-grid-column: 1;
+    grid-area: box_7_1;
+    background-color: white;
+}
+
+.box_7_2{
+    -ms-grid-row: 3;
+    -ms-grid-column: 1;
+    grid-area: box_7_2;
+    background-color: white;
+}
+
+
+/*maqueteando la subdivision 1 del box7*/
+
+.box_7_1{
+    display: grid;
+    gap: 10px;
+    grid-template-areas: 
+    "tt_b7"
+    "caja1"
+    "caja2";
+}
+
+.tt_b7{
+    -ms-grid-row: 1;
+    -ms-grid-column: 1;
+    grid-area: tt_b7;
+    background-color: wheat;
+}
+
+.caja1{
+    -ms-grid-row: 3;
+    -ms-grid-column: 1;
+    grid-area: caja1;
+    background-color: wheat;
+}
+
+
+.caja2{
+    -ms-grid-row: 5;
+    -ms-grid-column: 1;
+    grid-area: caja2;
+    background-color: wheat;
+}
+
+@media(min-width:800px){
+    .box_7_1{
+        grid-template: 
+        "tt_b7 tt_b7"
+        "caja1 caja2"/
+        50% ;
+    }
+    .tt_b7{
+        -ms-grid-row: 1;
+        -ms-grid-column: 1;
+        -ms-grid-column-span: 2;
+    }
+    .caja1{
+        -ms-grid-row: 2;
+        -ms-grid-column: 1;
+    }
+    .caja2{
+        -ms-grid-row: 2;
+        -ms-grid-column: 2;
+    }
+}
+
+
+@media(min-width:800px){
+    .box7{
+       grid-template: 
+       "box_7_1 box_7_2"/
+       50%; 
+    }
+    .box_7_1{
+        -ms-grid-row: 1;
+        -ms-grid-column: 1; 
+    }
+    .box_7_2{
+        -ms-grid-row: 1;
+        -ms-grid-column: 2; 
+    }
+}
+
+
 @media(max-width:799px){
     .box1{
         width: 100%;
