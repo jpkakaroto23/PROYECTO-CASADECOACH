@@ -528,7 +528,7 @@ li{
     display: grid;
     gap: 10px;
     grid-template-areas: 
-    "tt_b7"
+    "tt_b7" 
     "caja1"
     "caja2";
 }
@@ -552,7 +552,7 @@ li{
 @media(min-width:800px){
     .box_7_1{
         grid-template: 
-        "tt_b7 tt_b7"
+        "tt_b7 tt_b7" 55px
         "caja1 caja2"/
         50% ;
     }
