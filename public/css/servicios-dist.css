@@ -353,7 +353,82 @@ li{
 }
 
 
+/*configurado box3*/
 
+.box3{
+    display: grid;
+    gap: 5px;
+    width: 100%;
+    grid-template-areas: 
+    "tt_box3"
+    "img_3"
+    "pa_text3";
+}
+
+.tt_box3{
+    -ms-grid-row: 1;
+    -ms-grid-column: 1;
+    grid-area: tt_box3;
+    text-align: center;
+    background-color: white;
+}
+
+.tt3_boxxx3{
+    text-align: center;
+}
+
+.pa_text3{
+    margin-top: 10px;
+}
+
+.pa_text_parrafo{
+    width: 95%;
+    margin-left: 11px;
+    margin-top: 15px;
+    text-align: justify;
+    font-family: ADLaM Display;
+}
+
+.img_3{
+    -ms-grid-row: 3;
+    -ms-grid-column: 1;
+    grid-area: img_3;
+    width: 100%;
+    background-color: white;
+}
+
+.pa_text3{
+    -ms-grid-row: 5;
+    -ms-grid-column: 1;
+    grid-area: pa_text3;
+    width: 100%;
+    background-color: white;
+}
+
+
+
+
+
+@media(min-width:800px){
+    .box3{
+        grid-template: 
+        "tt_box3" 50px
+        "img_3" 250px
+        "pa_text3" 300px;
+    }
+    .tt_box3{
+        -ms-grid-row: 1;
+        -ms-grid-column: 1;
+    }
+    .img_3{
+        -ms-grid-row: 2;
+        -ms-grid-column: 1;
+    }
+    .pa_text3{
+        -ms-grid-row: 3;
+        -ms-grid-column: 1;
+    }
+}
 
 /*box 6 configurando contenido*/
 
