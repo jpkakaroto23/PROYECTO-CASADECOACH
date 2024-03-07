@@ -15,7 +15,7 @@ app.listen(PUERTO, ()=>{
 })
 
 app.use('/recursos', express.static(__dirname+'/public'));
-
+app.use('/static', express.static('public'));
 
 //peticiones
 app.get('/', (req, res)=>{
@@ -42,10 +42,6 @@ app.get('/decoautismo', (req, res)=>{
 
 app.get('/deco-nosotros', (req, res)=>{
     res.sendFile(path.resolve(__dirname, 'nosotros.html'));
-})
-
-app.get('/tienda-online', (req, res)=>{
-    res.sendFile(path.resolve(__dirname, 'tiendaonline.html'));
 })
 
 
