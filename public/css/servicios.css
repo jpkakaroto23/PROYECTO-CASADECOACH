@@ -101,6 +101,20 @@
     }
 }
 
+
+@media(min-width:1400px){
+    .box_hea_logo2{
+        grid-template: 
+        "ul_head";
+        margin-top: 10px;
+        margin-left: 45px;
+    }
+
+    .box_hea_logo1{
+        margin-left: 45px;
+    }
+}
+
 @media(min-width:800px){
     .boxheader{
         grid-template: 
