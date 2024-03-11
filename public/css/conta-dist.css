@@ -241,6 +241,10 @@
     filter: blur(2.px);
 }
 
+.form:hover{
+    background-color: rgb(238, 224, 224);   
+}
+
 .input{
     margin: 20px auto;
     width: 350px;
