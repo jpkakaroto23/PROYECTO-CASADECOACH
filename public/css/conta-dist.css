@@ -181,21 +181,18 @@
     -ms-grid-row: 3;
     -ms-grid-column: 1;
     grid-area: box2;
-    background-color: aqua;
 }
 
 .box3{
     -ms-grid-row: 5;
     -ms-grid-column: 1;
     grid-area: box3;
-    background-color: aqua;
 }
 
 .box4{
     -ms-grid-row: 7;
     -ms-grid-column: 1;
     grid-area: box4;
-    background-color: aqua;
 }
 
 
@@ -204,7 +201,26 @@
         grid-template: 
         "box1 box1"500px
         "box2 box3"350px
-        "box4 box4"150px; 
+        "box4 box4"150px/
+        50% ; 
+    }
+
+    .tx_cont{
+        margin: 20px auto;
+        text-align: center;
+        font-family:  ADLaM Display;
+    }
+
+    .p_conta{
+        margin: 5px auto;
+        text-align: center;
+        font-family:  ADLaM Display;
+    }
+
+    .mapa{
+        display: block;
+        margin: auto;
+        margin-top: 15px;
     }
     .box1{
         -ms-grid-row: 1;
@@ -303,5 +319,99 @@
     .box4{
         width: 100%;
         height: 300px;
+    }
+}
+
+
+/*footer*/
+
+hr{
+    display: block;
+    margin-top: 60px;
+    margin: auto;
+    width: 75%;
+}
+
+.footer{
+    margin-top: 30px;
+    width: 98%;
+    height: 55px;
+}
+
+.h5text{
+    margin-top: 10px;
+    font-size: 14px;
+    letter-spacing: 1px;
+    text-align: center;
+    color: #393939;
+    font-weight: 300;
+}
+
+.textreservados{
+    margin-top: 5px;
+    width: 100%;
+    height: 15px;
+}
+
+.derechos{
+    margin-top: 4px;
+    text-align: center;
+    font-size: 14px;
+    letter-spacing: 1px;
+    text-align: center;
+    color: #393939;
+    font-weight: 300;
+}
+
+@media(max-width:799px){
+    .tt{
+        margin-top: 60%;
+        width: 100%;
+    }
+
+    .t2{
+        margin-top: 80%;
+        margin-left: -10px;
+        width: 100%;
+    }
+
+    .t3{
+        margin-top: -80%;
+        width: 100%;
+        height: 70%;
+    }
+
+    .textoCentral{
+        margin-top: 60%;
+        width: 100%;
+    }
+
+
+    .man_box3{
+        margin-top: -20%;
+        width: 100%;
+    }
+
+    .ImgNos{
+        margin-left: 90px;
+        width: 100%;
+    }
+
+    .ptexto_central{
+        font-size: 12px;
+    }
+
+    hr{
+        margin-top: 40%;
+    }
+
+    
+}
+
+
+@media(max-width:370px){
+    .main_conteiner{
+        width: 100%;
+        height: 100%;
     }
 }
