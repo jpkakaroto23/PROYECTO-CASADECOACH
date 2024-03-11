@@ -768,6 +768,48 @@ li{
 
 
 @media(min-width:800px){
+    .tth2_box_7_2{
+        text-align: center;
+        font-family: ADLaM Display;
+    }
+
+    .tth3_box_7_2{
+        text-align: center;
+        font-family: ADLaM Display;
+    }
+
+    .p_tt7_parr_7_2{
+        text-align: center;
+        font-family: ADLaM Display;
+    }
+
+    .box_form{
+        width: 100%;
+        height: 250px;
+    }
+
+    .form_b_7_2{
+        margin-top: 40px;
+        text-align: center;
+        width: 98%;
+        height: 250px;
+        box-shadow: 0 0 2px black;
+    }
+
+    .input{
+        margin-top: 15px;
+        width: 300px;
+        height: 27px;
+    }
+
+    .btn{
+        margin-top: 20px;
+        width: 60px;
+        height: 30px;
+    }
+}
+
+@media(min-width:800px){
     .box7{
        grid-template: 
        "box_7_1 box_7_2"/
@@ -909,5 +951,46 @@ li{
     .box7{
         width: 100%;
         height: 800px;
+    }
+
+    .tth2_box_7_2{
+        text-align: center;
+        font-family: ADLaM Display;
+    }
+
+    .tth3_box_7_2{
+        text-align: center;
+        font-family: ADLaM Display;
+    }
+
+    .p_tt7_parr_7_2{
+        text-align: center;
+        font-family: ADLaM Display;
+    }
+
+    .box_form{
+        text-align: center;
+        width: 100%;
+        height: 250px;
+    }
+
+    .form_b_7_2{
+        margin-top: 40px;
+        text-align: center;
+        width: 100%;
+        height: 250px;
+        box-shadow: 0 0 2px black;
+    }
+
+    .input{
+        margin-top: 15px;
+        width: 95%;
+        height: 27px;
+    }
+
+    .btn{
+        margin-top: 20px;
+        width: 60px;
+        height: 30px;
     }
 }
