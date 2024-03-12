@@ -409,6 +409,19 @@
 }
 
 @media(max-width:799px){
+    .mainbox{
+        width: 100%;
+    }
+
+    .mbox1{
+        width: 100%;
+    }
+
+    .tt1{
+        width: 90%;
+        font-size: 17px;
+    }
+
     .cajatexto1{
         width: 80%;
         text-align: justify;
@@ -419,9 +432,20 @@
         text-align: justify;
     }
 
+    .mbox3{
+        width: 100%;
+    }
     .cajatexto2{
         width: 80%;
         text-align: justify;
+    }
+
+    .boxtett2{
+        width: 80%;
+    }
+
+    .camaBlan{
+        width: 95%;
     }
 }
 
