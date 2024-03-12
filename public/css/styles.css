@@ -181,11 +181,11 @@ li{
 
 .boxtexto{
     position: relative;
-    width: 470px;
+    width: 350px;
     height: 40px;
     background-color: black;
     opacity: 50%;
-    margin-top: -120px;
+    margin-top: -800px;
     margin-left: 65%;
 }
 
