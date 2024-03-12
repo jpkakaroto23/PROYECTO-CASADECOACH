@@ -814,11 +814,19 @@ li{
         box-shadow: 0 0 2px black;
     }
 
+    .form_b_7_2:hover{
+        background-color: rgb(238, 224, 224); 
+    }
+
     .input{
         margin-top: 15px;
         width: 300px;
         height: 27px;
         text-align: center;
+    }
+
+    .input:hover{
+        background-color:rgb(238, 224, 224);
     }
 
     .btn{
