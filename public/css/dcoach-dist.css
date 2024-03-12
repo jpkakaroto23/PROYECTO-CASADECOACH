@@ -656,6 +656,10 @@ section img:hover{
         width: 100%;
         font-size: 11px;
     }
+
+    .boxImg{
+        margin-top: -100px;
+    }
 }
 
 
