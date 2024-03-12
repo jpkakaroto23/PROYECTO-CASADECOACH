@@ -176,8 +176,8 @@
     .mainBox{
         margin-left: 60px;
         grid-template: 
-        "man_box1 man_box1"325px
-        "man_box2 man_box3"600px
+        "man_box1 man_box1"250px
+        "man_box2 man_box3"750px
         "man_box4 man_box4"100px;
     }
 }
@@ -235,7 +235,7 @@
 }
 
 .t3{
-    margin-top: 70px;
+    margin-top: 30px;
     width: 87%;
     font-family: ADLaM Display;
     font-size: 21px;
