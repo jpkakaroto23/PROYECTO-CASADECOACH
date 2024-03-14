@@ -7,7 +7,7 @@ const envio = async()=>{
     };
 
     try {
-        const response = await fetch('https://www.casadecoach.cl/contacto',{
+        const response = await fetch('http://localhost:5200/contacto',{
             method: 'POST',
             headers: {
                 'Content-Type':'application/json',
@@ -21,7 +21,7 @@ const envio = async()=>{
             alert('Error: ',error);
         }
     } catch (error) {
-        console.error('Error: ', error);
+        console.log('Error: ', error);
         alert('Error al enviar el mensaje...');
     }
 }

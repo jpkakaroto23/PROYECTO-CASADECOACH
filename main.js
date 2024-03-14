@@ -70,18 +70,21 @@ app.post('/contacto', async(req, res)=>{
     const { nombre, telefono, direccion, comuna } = req.body;
 
     const transporter = nodemailer.createTransport({
-        host: "mail.casadecoach.cl",
-        port: 587,
+        host: "srv25.cpanelhost.cl",
+        port: 21,
         secure: false,
         auth: {
             user: "dcastillo@casadecoach.cl",
             pass: "qcrkGpFadvhXNyxEnDhr",
         },
+        tls:{
+            rejectUnauthorized: false
+        }
     })
 
     const mailOptions = {
         from: 'dcastillo@casadecoach.cl',
-        to: 'casadecoach@gmail.com',
+        to: 'dcastillo@casadecoach.cl',
         subject: 'Mensaje Posible cliente',
         text: `Nombre: ${nombre}\nTeléfono: ${telefono}\nDirección: ${direccion}\nComuna: ${comuna}`,
     };
