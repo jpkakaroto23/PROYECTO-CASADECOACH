@@ -73,7 +73,7 @@ app.post('/contacto', async(req, res)=>{
         secure: true,
         auth: {
             user: "casadecoach@gmail.com",
-            pass: "nuipkgyktbrqmzdb",
+            pass: "nuip kgyk tbrq mzdb",
         },
     })
 
