@@ -16,6 +16,8 @@ app.listen(PUERTO, ()=>{
 
 app.use('/recursos', express.static(__dirname+'/public'));
 app.use('/static', express.static('public'));
+app.use(express.urlencoded({extended:false}));
+app.use(express.json());
 
 //peticiones
 app.get('/', (req, res)=>{
@@ -69,8 +71,8 @@ app.post('/contacto', async(req, res)=>{
 
     const transporter = nodemailer.createTransport({
         host: "mail.casadecoach.cl",
-        port: 465,
-        secure: true,
+        port: 587,
+        secure: false,
         auth: {
             user: "dcastillo@casadecoach.cl",
             pass: "qcrkGpFadvhXNyxEnDhr",
@@ -79,7 +81,7 @@ app.post('/contacto', async(req, res)=>{
 
     const mailOptions = {
         from: 'dcastillo@casadecoach.cl',
-        to: 'dcastillo@casadecoach.cl',
+        to: 'casadecoach@gmail.com',
         subject: 'Mensaje Posible cliente',
         text: `Nombre: ${nombre}\nTeléfono: ${telefono}\nDirección: ${direccion}\nComuna: ${comuna}`,
     };
