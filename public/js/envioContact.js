@@ -7,7 +7,7 @@ const envio = async()=>{
     };
 
     try {
-        const response = await fetch('https://www.casadecoach.cl/contacto',{
+        const response = await fetch('www.casadecoach.cl/contacto',{
             method: 'POST',
             headers: {'Content-Type':'application/json'},
             body: JSON.stringify(formData),
