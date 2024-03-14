@@ -64,7 +64,7 @@ app.get('/contacto', (req, res)=>{
 
 // petición post para el formulario de contacto...
 
-app.post('/contacto', async(req, res)=>{
+app.post('/contacto?', async(req, res)=>{
     const { nombre, telefono, direccion, comuna } = req.body;
 
     const transporter = nodemailer.createTransport({
