@@ -78,6 +78,9 @@ app.post('/contacto', async(req, res)=>{
             pass: "xyoa cyjr awib lygg",
         },
     
+        tls:{
+            rejectUnauthorized: false
+        }
     })
 
     const mailOptions = {
@@ -91,7 +94,7 @@ app.post('/contacto', async(req, res)=>{
         await transporter.sendMail(mailOptions);
         console.log('Email enviado con éxito');
         res.status(200).send('Mensaje enviado con éxito');
-        
+
     } catch (error){
         console.error('Error al envíar el correo: ', error);
         res.status(500).send('Error al envár el mensaje');
