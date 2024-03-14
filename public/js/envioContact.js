@@ -27,5 +27,4 @@ const envio = async()=>{
 const boton = document.getElementById("btn");
 boton.addEventListener('click', (a)=>{
     a.preventDefault();
-    location.reload();
 })
