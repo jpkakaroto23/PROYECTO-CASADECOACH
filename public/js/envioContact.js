@@ -7,7 +7,7 @@ const envio = async()=>{
     };
 
     try {
-        const response = await fetch('http://localhost:5200/contacto',{
+        const response = await fetch('http://localhost:5200/contacto/',{
             method: 'POST',
             headers: {
                 'Content-Type':'application/json',
