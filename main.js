@@ -70,21 +70,19 @@ app.post('/contacto', async(req, res)=>{
     const { nombre, telefono, direccion, comuna } = req.body;
 
     const transporter = nodemailer.createTransport({
-        host: "srv25.cpanelhost.cl",
-        port: 21,
-        secure: false,
+        host: "smtp.gmail.com",
+        port: 465,
+        secure: true,
         auth: {
-            user: "dcastillo@casadecoach.cl",
-            pass: "qcrkGpFadvhXNyxEnDhr",
+            user: "casadecoach@gmail.com",
+            pass: "xyoa cyjr awib lygg",
         },
-        tls:{
-            rejectUnauthorized: false
-        }
+    
     })
 
     const mailOptions = {
-        from: 'dcastillo@casadecoach.cl',
-        to: 'dcastillo@casadecoach.cl',
+        from: 'casadecoach@gmail.com',
+        to: 'casadecoach@gmail.com',
         subject: 'Mensaje Posible cliente',
         text: `Nombre: ${nombre}\nTeléfono: ${telefono}\nDirección: ${direccion}\nComuna: ${comuna}`,
     };
@@ -93,6 +91,7 @@ app.post('/contacto', async(req, res)=>{
         await transporter.sendMail(mailOptions);
         console.log('Email enviado con éxito');
         res.status(200).send('Mensaje enviado con éxito');
+        
     } catch (error){
         console.error('Error al envíar el correo: ', error);
         res.status(500).send('Error al envár el mensaje');
