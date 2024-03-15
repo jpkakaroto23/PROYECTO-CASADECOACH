@@ -101,3 +101,43 @@ app.post('/contacto', async(req, res)=>{
     }
     
 })
+
+
+//petición para el formulario de la página servicios....
+
+app.post('/servicios', async(req, res)=>{
+    const { nombre, telefono, direccion, comuna } = req.body;
+
+    const transporter = nodemailer.createTransport({
+        host: "smtp.gmail.com",
+        port: 465,
+        secure: true,
+        auth: {
+            user: "casadecoach@gmail.com",
+            pass: "xyoa cyjr awib lygg",
+        },
+    
+        tls:{
+            rejectUnauthorized: false
+        }
+    })
+
+    const mailOptions = {
+        from: 'casadecoach@gmail.com',
+        to: 'casadecoach@gmail.com',
+        subject: 'Mensaje Posible cliente',
+        text: `Nombre: ${nombre}\nTeléfono: ${telefono}\nDirección: ${direccion}\nComuna: ${comuna}`,
+    };
+
+    try {
+        await transporter.sendMail(mailOptions);
+        console.log('Email enviado con éxito');
+        res.status(200).send('Mensaje enviado con éxito');
+
+    } catch (error){
+        console.error('Error al envíar el correo: ', error);
+        res.status(500).send('Error al envár el mensaje');
+    }
+    
+})
+

@@ -166,11 +166,12 @@
                     <p class="p_tt7_parr_7_2">Nuestros valores de asesoría incluyen iva El tiempo estimado de la reunión inicial es de 1 hora aprox.</p><br>
                     <div class="box_form">
                         <form class="form_b_7_2" action="">
-                            <input class="input" type="text" placeholder="Nombre completo"><br>
-                            <input class="input" type="text" placeholder="Teléfono"><br>
-                            <input class="input" type="text" placeholder="Dirección"><br>
-                            <input class="input" type="text" placeholder="Comuna"><br>
-                            <button class="btn">Enviar</button>
+                            <input id="nombre" class="input" type="text" placeholder="Nombre"><br>
+                            <input id="telefono" class="input" type="text" placeholder="Teléfono"><br>
+                            <input id="direccion" class="input" type="text" placeholder="Correo Electrónico"><br>
+                            <input id="comuna" class="input" type="text" placeholder="Mensaje"><br>
+                            <button id="btn" class="btn" onclick="envio()">Enviar</button>
+                            <button id="refresh" class="refresh">Refrescar</button>
                         </form>
                     </div>
                 </div>
@@ -178,6 +179,6 @@
         </div>
     </div>
 
-    <script src="/recursos/js/index.js"></script>
+    <script src="/recursos/js/servicios.js"></script>
 </body>
 </html>
