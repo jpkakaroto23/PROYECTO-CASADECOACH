@@ -296,7 +296,7 @@
 .textt2{
     letter-spacing:1px;
     color: #393939;
-    font-size: 14px;
+    font-size: 20px;
     font-weight: 600;
     font-family: ADLaM Display;
     line-height: 1.7;
@@ -309,7 +309,7 @@
 .textt3{
     letter-spacing:1px;
     color: #393939;
-    font-size: 14px;
+    font-size: 20px;
     font-weight: 600;
     font-family: ADLaM Display;
     line-height: 1.7;
@@ -320,13 +320,15 @@
 }
 
 
-.textt4{
-    letter-spacing:1px;
-    color: #393939;
-    font-size: 14px;
-    font-weight: 600;
+.btn_wsp{
+    width: 120px;
+    height: 50px;
+}
+
+.h_wsp{
+    text-decoration: none;
+    color: black;
     font-family: ADLaM Display;
-    line-height: 1.7;
 }
 
 @media(min-width:800px){
@@ -387,6 +389,13 @@
         margin-left: 20px;
         width: 90%;
         font-size: 11px;
+    }
+
+    .btn_wsp{
+        display: block;
+        margin: auto;
+        width: 120px;
+        height: 50px;
     }
 }
 
