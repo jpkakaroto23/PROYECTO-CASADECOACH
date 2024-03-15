@@ -28,3 +28,9 @@ const boton = document.getElementById("btn");
 boton.addEventListener('click', (a)=>{
     a.preventDefault();
 })
+
+const refr = document.getElementById("refresh");
+refr.addEventListener('click', (e)=>{
+    e.preventDefault(); 
+    location.reload();
+})

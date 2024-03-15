@@ -232,6 +232,16 @@
     cursor: pointer;
 }
 
+.refresh{
+    width: 80px;
+    height: 27px;
+}
+
+.refresh:hover{
+    background-color: rgb(230, 223, 223);
+    cursor: pointer;
+}
+
 @media(max-width:799px){
     .box1{
         width: 98%;
