@@ -349,7 +349,9 @@ hr{
     }
 
     .box2{
-        width: 90%;
+        display: block;
+        margin: auto;
+        width: 96%;
     }
 
     .tx_cont{
