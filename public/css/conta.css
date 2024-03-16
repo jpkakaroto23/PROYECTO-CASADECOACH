@@ -242,6 +242,24 @@
     cursor: pointer;
 }
 
+.pincha{
+    display: block;
+    margin: auto;
+    width: 120px;
+    height: 30px;
+}
+
+.pincha:hover{
+    background-color: rgb(230, 223, 223);
+    cursor: pointer;
+}
+
+.h_pin{
+    text-decoration: none;
+    font-family: ADLaM Display;
+    color: black;
+}
+
 @media(max-width:799px){
     .box1{
         width: 98%;

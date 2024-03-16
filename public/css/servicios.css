@@ -826,4 +826,14 @@ li{
         width: 60px;
         height: 30px;
     }
+
+    .refresh{
+        width: 80px;
+        height: 30px;
+    }
+    
+    .refresh:hover{
+        background-color: rgb(230, 223, 223);
+        cursor: pointer;
+    }
 }
