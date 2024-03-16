@@ -392,13 +392,21 @@ hr{
 }
 
 @media(max-width:799px){
+    .main_box{
+        width: 95%;
+    }
     .tt{
         margin-top: 60%;
         width: 100%;
     }
 
     .box2{
-        width: 98%;
+        width: 90%;
+    }
+
+    .tx_cont{
+        width: 80%;
+        text-align: center;
     }
 
     .t2{
