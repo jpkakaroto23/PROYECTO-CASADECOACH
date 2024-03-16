@@ -341,7 +341,7 @@ hr{
 
 @media(max-width:799px){
     .main_box{
-        width: 95%;
+        width: 96%;
     }
     .tt{
         margin-top: 60%;
@@ -351,11 +351,11 @@ hr{
     .box2{
         display: block;
         margin: auto;
-        width: 96%;
+        width: 98%;
     }
 
     .tx_cont{
-        width: 80%;
+        width: 93%;
         text-align: center;
     }
 
