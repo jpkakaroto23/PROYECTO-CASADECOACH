@@ -345,6 +345,10 @@ hr{
         width: 100%;
     }
 
+    .box2{
+        width: 98%;
+    }
+
     .t2{
         margin-top: 80%;
         margin-left: -10px;
@@ -381,7 +385,9 @@ hr{
         margin-top: 40%;
     }
 
-    
+    .pincha{
+        margin-top: 20px;
+    }    
 }
 
 
