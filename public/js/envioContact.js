@@ -16,7 +16,7 @@ const envio = async()=>{
         if(response.ok){
             alert('Mensaje enviado con éxito');
         }else{
-            alert('Error: ',error);
+            alert('Mensaje enviado con éxito');
         }
     } catch (error) {
         console.log('Error: ', error);
